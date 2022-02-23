@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:MvvmContentPage x:Class="XamarinFormsShell.Pages.ItemPage"
+                       xmlns="http://xamarin.com/schemas/2014/forms"
+                       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                       xmlns:pages="clr-namespace:XamarinFormsShell.Pages"
+                       xmlns:views="clr-namespace:XamarinFormsShell.Views"
+                       BackgroundColor="{DynamicResource WindowBackground}">
+	<Shell.TitleView>
+		<views:CustomNavigationBar />
+	</Shell.TitleView>
+	<ContentPage.Content>
+		<StackLayout>
+			<Label HorizontalOptions="CenterAndExpand"
+			       Text="{Binding ItemId, StringFormat='Item Id{0}'}"
+			       VerticalOptions="CenterAndExpand" />
+		</StackLayout>
+	</ContentPage.Content>
+</pages:MvvmContentPage>

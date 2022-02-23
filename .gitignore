@@ -1,0 +1,21 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/XamarinFormsShell/v15
+/XamarinFormsShell/XamarinFormsShell/obj
+/XamarinFormsShell/XamarinFormsShell.Android/obj
+/XamarinFormsShell/XamarinFormsShell.iOS/obj
+/XamarinFormsShell/XamarinFormsShell.UWP/obj
+/XamarinFormsShell/XamarinFormsShell.Android/bin/Debug
+/XamarinFormsShell/XamarinFormsShell/bin/Debug/netstandard2.0
+/.vs/XamarinFormsShell/DesignTimeBuild
+/XamarinFormsShell/XamarinFormsShell.iOS/bin/iPhoneSimulator/Debug
+/XamarinFormsShell/XamarinFormsShell.UWP/bin/x86/Debug
+/XamarinFormsShell/XamarinFormsShell.iOS/XamarinFormsShell.iOS.csproj.user
+/.vs/XamarinFormsShell/v16/Server/sqlite3
+/.vs/XamarinFormsShell/v16/.suo
+/XamarinFormsShell/XamarinFormsShell.iOS/bin/iPhone/Debug
+/XamarinFormsShell/XamarinFormsShell.iOS/bin/iPhone/Release
+/XamarinFormsShell/XamarinFormsShell/bin/Release/netstandard2.0
+/XamarinFormsShell/XamarinFormsShell.iOS/bin/iPhoneSimulator/Release
